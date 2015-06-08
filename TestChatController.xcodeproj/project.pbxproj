@@ -13,6 +13,9 @@
 		407C21B31B25A63F00A6CEBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407C21B21B25A63F00A6CEBA /* Images.xcassets */; };
 		407C21B61B25A63F00A6CEBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407C21B41B25A63F00A6CEBA /* LaunchScreen.xib */; };
 		407C21C21B25A63F00A6CEBA /* TestChatControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407C21C11B25A63F00A6CEBA /* TestChatControllerTests.swift */; };
+		407C21CC1B25AA7C00A6CEBA /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407C21CB1B25AA7C00A6CEBA /* MyCustomTableViewCell.swift */; };
+		407C21CE1B25AB8600A6CEBA /* demands.png in Resources */ = {isa = PBXBuildFile; fileRef = 407C21CD1B25AB8600A6CEBA /* demands.png */; };
+		407C21D01B25AC8900A6CEBA /* niujiao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 407C21CF1B25AC8900A6CEBA /* niujiao.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		407C21BB1B25A63F00A6CEBA /* TestChatControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestChatControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		407C21C01B25A63F00A6CEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		407C21C11B25A63F00A6CEBA /* TestChatControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChatControllerTests.swift; sourceTree = "<group>"; };
+		407C21CB1B25AA7C00A6CEBA /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		407C21CD1B25AB8600A6CEBA /* demands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demands.png; sourceTree = "<group>"; };
+		407C21CF1B25AC8900A6CEBA /* niujiao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = niujiao.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,10 @@
 			children = (
 				407C21AB1B25A63F00A6CEBA /* AppDelegate.swift */,
 				407C21AD1B25A63F00A6CEBA /* ViewController.swift */,
+				407C21CF1B25AC8900A6CEBA /* niujiao.jpg */,
+				407C21CD1B25AB8600A6CEBA /* demands.png */,
 				407C21AF1B25A63F00A6CEBA /* Main.storyboard */,
+				407C21CB1B25AA7C00A6CEBA /* MyCustomTableViewCell.swift */,
 				407C21B21B25A63F00A6CEBA /* Images.xcassets */,
 				407C21B41B25A63F00A6CEBA /* LaunchScreen.xib */,
 				407C21A91B25A63F00A6CEBA /* Supporting Files */,
@@ -192,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407C21CE1B25AB8600A6CEBA /* demands.png in Resources */,
+				407C21D01B25AC8900A6CEBA /* niujiao.jpg in Resources */,
 				407C21B11B25A63F00A6CEBA /* Main.storyboard in Resources */,
 				407C21B61B25A63F00A6CEBA /* LaunchScreen.xib in Resources */,
 				407C21B31B25A63F00A6CEBA /* Images.xcassets in Resources */,
@@ -214,6 +225,7 @@
 			files = (
 				407C21AE1B25A63F00A6CEBA /* ViewController.swift in Sources */,
 				407C21AC1B25A63F00A6CEBA /* AppDelegate.swift in Sources */,
+				407C21CC1B25AA7C00A6CEBA /* MyCustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

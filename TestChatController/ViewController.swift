@@ -23,3 +23,22 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: UITableViewDelegate, UITableViewDataSource{
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        var customCell:MyCustomTableViewCell = tableView.dequeueReusableCellWithIdentifier("customCell") as! MyCustomTableViewCell
+        
+        customCell.mylabel.text = "this is a test"
+        customCell.myImageView.image = UIImage(named: "niujiao.jpg")
+        
+        if indexPath.row == 1{
+           // customCell.setImageToProgress()
+            customCell.setImageToSuper()
+        }
+        
+        return customCell
+    }
+}
