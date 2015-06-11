@@ -165,6 +165,7 @@
 		407C219E1B25A63F00A6CEBA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "臧其龙";
 				TargetAttributes = {
@@ -423,6 +424,7 @@
 				407C21C71B25A63F00A6CEBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		407C21C81B25A63F00A6CEBA /* Build configuration list for PBXNativeTarget "TestChatControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +433,7 @@
 				407C21CA1B25A63F00A6CEBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

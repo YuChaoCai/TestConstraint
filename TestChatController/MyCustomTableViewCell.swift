@@ -30,9 +30,9 @@ class MyCustomTableViewCell: UITableViewCell {
         
         imageToLabel.priority =  750
         imageToSuperVertical.priority = 750
-        if imageToProgressVertical.priority != 1000
+        if imageToProgressVertical.priority != 999
         {
-            imageToProgressVertical.priority = 1000
+            imageToProgressVertical.priority = 999
         }
         
         
@@ -44,9 +44,9 @@ class MyCustomTableViewCell: UITableViewCell {
         
         imageToLabel.priority =  750
         imageToProgressVertical.priority = 750
-        if imageToSuperVertical.priority != 1000
+        if imageToSuperVertical.priority != 999
         {
-            imageToSuperVertical.priority = 1000
+            imageToSuperVertical.priority = 999
         }
 
     }
