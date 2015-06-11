@@ -25,15 +25,24 @@ class MyCustomTableViewCell: UITableViewCell {
         // Initialization code
     }
     
+    override func prepareForReuse()
+    {
+        super.prepareForReuse()
+        imageToLabel.priority = 999
+        imageToSuperVertical.priority = 750
+        imageToProgressVertical.priority = 750
+        
+        
+        mylabel.hidden = false
+        progressView.hidden = false
+    }
+    
     func setImageToProgress(){
         mylabel.hidden = true
         
         imageToLabel.priority =  750
         imageToSuperVertical.priority = 750
-        if imageToProgressVertical.priority != 999
-        {
-            imageToProgressVertical.priority = 999
-        }
+         imageToProgressVertical.priority = 999
         
         
     }
@@ -44,10 +53,7 @@ class MyCustomTableViewCell: UITableViewCell {
         
         imageToLabel.priority =  750
         imageToProgressVertical.priority = 750
-        if imageToSuperVertical.priority != 999
-        {
-            imageToSuperVertical.priority = 999
-        }
+        imageToSuperVertical.priority = 999
 
     }
 
